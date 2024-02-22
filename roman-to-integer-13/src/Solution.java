@@ -56,6 +56,9 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        System.out.println(romanToInt("IIII"));
+        System.out.println(romanToInt("MCMXCVI"));//1996
+        System.out.println(romanToInt("MMXXIV"));//2024
+        System.out.println(romanToInt("MCML"));//1950
+        System.out.println(romanToInt("MMCMXCIX"));//2999
     }
 }
